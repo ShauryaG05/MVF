@@ -231,7 +231,7 @@ function Header() {
                                 />
                             </Link>
                         ) : (
-                            <div className="flex items-center gap-2">
+                            <div className="hidden sm:flex items-center gap-2">
                                 <Link
                                     to="/auth/login"
                                     className="px-3.5 py-1.5 text-xs font-semibold text-gray-300 hover:text-white rounded-full transition-all hover:bg-white/6 border border-transparent hover:border-white/10 cursor-pointer active:scale-95"
