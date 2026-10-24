@@ -151,7 +151,7 @@ body {
 }
 `;
 
-export default function NotFound({ siteName = "Filmlog" }) {
+export default function NotFound({ siteName = "" }) {
     const pageRef = useRef(null);
     const stageRef = useRef(null);
     const numRef = useRef(null);
